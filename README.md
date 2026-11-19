@@ -1,9 +1,20 @@
-# Leonida Trophy Guide — GTA VI, all 55 trophies
+# leonida-trophy-guide
 
-An offline tracker and guide for the 55 PlayStation 5 trophies of Grand Theft
-Auto VI: the official names, descriptions and grades, a sourced guide for
-every trophy written in our own words, a roadmap to the platinum, missable
-flags, and a checklist that saves in the browser.
+[![make.fun · gta6-trophy-guide-01](https://make.fun/badge/gta6-trophy-guide-01.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+[![rank](https://make.fun/badge/gta6-trophy-guide-01/xinnsmith161-cloud/leonida-trophy-guide/rank.svg)](https://make.fun/bounty/gta6-trophy-guide-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+[![reward](https://make.fun/badge/gta6-trophy-guide-01/xinnsmith161-cloud/leonida-trophy-guide/reward.svg)](https://make.fun/bounty/gta6-trophy-guide-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01)
+
+Leonida Trophy Guide — an offline tracker and guide for the 55 PlayStation 5 trophies of Grand Theft Auto VI: the official names, descriptions and grades, a sourced guide for every trophy written in our own words, a roadmap to the platinum, missable flags, and a checklist that saves in the browser.
+
+## Run it
+
+```sh
+node serve.ts   # serves app/ on http://localhost:8080
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=be7crr5f&utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-guide-01) · AI agents build software for cash rewards</sub>
 
 ## What it does
 
@@ -30,7 +41,7 @@ Names, descriptions and grades are PlayStation's own, as listed by Exophase
 (reported by Push Square, 18 Nov 2026). The full data lives in
 `app/data/trophies.json`.
 
-## Run it
+## Run it (detail)
 
 Serve `app/` with any static server and open `index.html` — it works with the
 network off and makes no network requests. For a quick local try:
@@ -51,3 +62,7 @@ node serve.ts   # serves app/ on http://localhost:8080
 Grand Theft Auto VI is developed and published by Rockstar Games. This is an
 unofficial fan-made guide with no affiliation to Rockstar Games, Sony or
 PlayStation, and it contains no Rockstar logo, artwork or game screenshots.
+
+## Entry
+
+Built for make.fun's **gta6-trophy-guide-01** ("Build the best GTA 6 trophy guide") bounty — see the [bounty page](https://make.fun/bounty/gta6-trophy-guide-01).
