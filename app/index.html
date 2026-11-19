@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leonida Trophy Guide — GTA VI, all 55 trophies</title>
+<meta name="description" content="An offline tracker and guide for all 55 Grand Theft Auto VI trophies on PlayStation 5: checklist, roadmap to the platinum, missable flags and a sourced guide for every trophy.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <p class="eyebrow">Grand Theft Auto VI &middot; PlayStation 5 &middot; Unofficial fan guide</p>
+  <h1>Leonida Trophy Guide</h1>
+  <p class="lede">Every one of the 55 trophies — the official names, descriptions and grades, a sourced guide for each, and a tracker that remembers your progress. No account, no network: it all runs from these files.</p>
+  <div class="progress-wrap" aria-label="Progress to the platinum">
+    <div class="progress-line"><strong id="progressText">0 of 55 earned</strong><span id="progressPct">0% to the platinum</span></div>
+    <div class="progress-bar"><div id="progressFill"></div></div>
+    <p class="grade-line" id="gradeLine"></p>
+  </div>
+  <nav class="tabs" aria-label="Sections">
+    <a href="#tracker" class="tab active">Tracker</a>
+    <a href="#roadmap" class="tab">Roadmap to the platinum</a>
+    <a href="#sources" class="tab">Sources</a>
+  </nav>
+</header>
+
+<main>
+  <section id="tracker" aria-label="Trophy tracker">
+    <div class="alert" role="note">
+      <strong>Read this first — the one missable trophy.</strong>
+      <span><b>Positive Mental Attitude</b> can be missed: Lucia&rsquo;s balcony meditation in Chapter&nbsp;1 disappears when the chapter ends. Do it in Chapter&nbsp;1 and keep a manual save from the start of that chapter. Everything else stays available after the credits. There is no mission replay, so keep a manual save at the start of every chapter.</span>
+    </div>
+
+    <div class="controls">
+      <label class="search">Search
+        <input id="search" type="search" placeholder="Trophy, mission or place&hellip;" autocomplete="off">
+      </label>
+      <label>Kind
+        <select id="kind">
+          <option value="all">All kinds</option>
+          <option value="story">Story</option>
+          <option value="missable">Missable</option>
+          <option value="stranger">Stranger strands</option>
+          <option value="collectible">Collectibles</option>
+          <option value="activity">Activities</option>
+          <option value="combat">Combat</option>
+          <option value="robbery">Robbery</option>
+          <option value="exploration">Exploration</option>
+          <option value="money">Money</option>
+          <option value="misc">Everything else</option>
+        </select>
+      </label>
+      <label>Grade
+        <select id="grade">
+          <option value="all">All grades</option>
+          <option value="platinum">Platinum</option>
+          <option value="gold">Gold</option>
+          <option value="silver">Silver</option>
+          <option value="bronze">Bronze</option>
+        </select>
+      </label>
+      <label>Show
+        <select id="show">
+          <option value="all">All trophies</option>
+          <option value="remaining">Still to earn</option>
+          <option value="earned">Earned</option>
+        </select>
+      </label>
+      <label class="toggle"><input id="spoiler" type="checkbox"> <span>Hide spoilers <small>(story trophies stay hidden until earned)</small></span></label>
+      <div class="actions">
+        <button id="export" type="button">Export progress</button>
+        <label class="import-btn">Import progress <input id="import" type="file" accept="application/json,.json"></label>
+        <button id="reset" type="button" class="quiet">Reset</button>
+      </div>
+    </div>
+
+    <p class="count-line" id="countLine"></p>
+    <div id="list" class="list"></div>
+    <p class="empty" id="empty" hidden>No trophies match these filters. Clear the search or pick another kind.</p>
+  </section>
+
+  <section id="roadmap" aria-label="Roadmap to the platinum">
+    <h2>Roadmap to the platinum</h2>
+    <p class="section-lede">One playthrough is enough — around 200 hours, most of it the 100% checklist. Play the story first, do the time-sensitive steps when they appear, and clean up the open world after the credits.</p>
+    <ol id="roadmapList" class="roadmap"></ol>
+  </section>
+
+  <section id="sources" aria-label="Sources">
+    <h2>Sources</h2>
+    <p class="section-lede">Every specific location or step in this guide cites one of these. The trophy names, descriptions and grades are PlayStation&rsquo;s own, as listed by Exophase; the how-to detail comes from the launch-week guides below, rewritten in our own words. Nothing here is copied from another guide.</p>
+    <ul id="sourceList" class="sources"></ul>
+    <p class="fineprint">Grand Theft Auto VI is developed and published by Rockstar Games. This is an unofficial fan-made guide with no affiliation to Rockstar Games, Sony or PlayStation, and it contains no Rockstar logo, artwork or game screenshots. Trophy list as published 18 November 2026; guides checked against launch-week sources and marked where no method was confirmed yet.</p>
+  </section>
+</main>
+
+<footer>
+  <p>Leonida Trophy Guide &middot; works fully offline &middot; progress is saved in your browser only.</p>
+</footer>
+
+<script src="roadmap.js"></script>
+<script type="module" src="app.js"></script>
+</body>
+</html>
